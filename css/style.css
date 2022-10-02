@@ -1,0 +1,75 @@
+body {
+    background-color: #36009c;
+    overflow: hidden;
+}
+
+.slider {
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.slider__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+}
+
+.slider__btn_prev {
+    transform: rotate(-180deg);
+    margin-right: 20px;
+}
+
+.slider__btn_next {
+    margin-left: 20px;
+}
+
+.slider__image {
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slider-line {
+    display: flex;
+    height: 400px;
+    position: relative;
+}
+
+.slider-line img {
+    height: 100%;
+    width: auto;
+}
+
+.slider__nav {
+    position: relative;
+    margin: 30px auto;
+    display: flex;
+}
+
+.slider__dots {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.slider__dots button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid #fff 2px;
+    margin: 0px 10px;
+    transition: all ease 1s;
+}
+
+.slider__dots button.active {
+    background-color: #fff;
+    transition: all ease 1s;
+}
